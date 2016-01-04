@@ -1565,11 +1565,16 @@ blockquote:after,
 	font-weight: 400;
 	line-height: 1.2173913043;
 	margin: 0;
+}
+
+.site-branding > p.site-title,
+.site-branding > h1.site-title {
     color: #f35626;
     background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 60s infinite linear;
+
 }
 
 @-webkit-keyframes hue {
