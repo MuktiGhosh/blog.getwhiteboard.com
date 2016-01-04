@@ -48,7 +48,7 @@
 					do_action( 'twentysixteen_credits' );
 				?>
 				<span class="site-title">
-					Copyright &copy; <?php date('Y'); ?> <a href="https://getwhiteboard.com/">Whiteboard</a>. All rights reserved.
+					Copyright &copy; <?php echo date('Y'); ?> <a href="https://getwhiteboard.com/">Whiteboard</a>. All rights reserved.
 				</span>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
